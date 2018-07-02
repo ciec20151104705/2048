@@ -1,7 +1,8 @@
 /**
- * Created by s20151104705 on 2018/5/11.
+ * Created by liuyubobobo on 14-4-11.
+ * my site: http://www.liuyubobobo.com
  */
- function getPosTop(i,j)
+function getPosTop(i,j)
 {
     return 20+i*120;
 }
@@ -45,7 +46,7 @@ function getNumberBackgroundColor(number)
 function getNumberColor(number)
 {
     if(number<=4)
-    return "#776e65";
+        return "#776e65";
     return "white";
 }
 function nospace(board)
@@ -62,3 +63,4 @@ function nospace(board)
     }
     return true;
 }
+
